@@ -125,29 +125,15 @@ The training output indicates that a balanced subset of 120,000 records was used
 
 Refer to the dataset's original documentation for its description, licensing and download instructions.
 
-## 11. Project Structure
 
-```text
-phishing-website-detection/
-│
-├── templates/
-├── README.md
-├── RUN_PROJECT.bat
-├── app.py
-├── requirements.txt
-├── train_model.py
-├── phishing_model.pkl
-└── feature_names.pkl
-
-
-## 12. Limitations
+## 11. Limitations
 
 - Predictions depend on the quality and representativeness of the training dataset.
 - High test accuracy does not guarantee correct predictions for every real-world website.
 - The application should be tested on unseen URLs before practical deployment.
 - The system should be treated as a decision-support tool rather than a guarantee that a website is safe.
 
-## 13. Future Enhancements
+## 12. Future Enhancements
 
 - Test the model on additional, unseen phishing URLs.
 - Improve feature extraction and model evaluation.
@@ -156,6 +142,6 @@ phishing-website-detection/
 - Explore deployment and monitoring for real-world use.
 
 
-## 14. Conclusion
+## 13. Conclusion
 
 This project demonstrates the use of machine learning for phishing website detection. It combines dataset preparation, Random Forest classification, model evaluation and a Flask-based web application in a single workflow. The reported test accuracy of 98.25% provides an initial evaluation result, while further testing and validation can help assess its performance on unseen websites.
