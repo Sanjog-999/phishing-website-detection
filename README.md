@@ -129,14 +129,14 @@ phishing-website-detection/
 
 The two `.pkl` files are generated locally by the training script. Include them in the repository or provide an appropriate download method if the application requires them to run.
 
-## 11. Limitations
+## 10. Limitations
 
 - Predictions depend on the quality and representativeness of the training dataset.
 - High test accuracy does not guarantee correct predictions for every real-world website.
 - The application should be tested on unseen URLs before practical deployment.
 - The system should be treated as a decision-support tool rather than a guarantee that a website is safe.
 
-## 12. Future Enhancements
+## 11. Future Enhancements
 
 - Test the model on additional, unseen phishing URLs.
 - Improve feature extraction and model evaluation.
@@ -145,6 +145,6 @@ The two `.pkl` files are generated locally by the training script. Include them 
 - Explore deployment and monitoring for real-world use.
 
 
-## 14. Conclusion
+## 12. Conclusion
 
 This project demonstrates the use of machine learning for phishing website detection. It combines dataset preparation, Random Forest classification, model evaluation and a Flask-based web application in a single workflow. The reported test accuracy of 98.25% provides an initial evaluation result, while further testing and validation can help assess its performance on unseen websites.
